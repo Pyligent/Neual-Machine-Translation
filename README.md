@@ -37,7 +37,7 @@ Scores are calculated for individual translated segmentsâ€”generally sentencesâ€
 
 ![img8](./images/BLEU.png)
 
-### Model Training
+### 5. Model Training
 
 - Local Training   
   **sh run.sh train_local**
@@ -46,6 +46,6 @@ Scores are calculated for individual translated segmentsâ€”generally sentencesâ€
   **pip install -r gpu_requirements.txt**
   **sh run.sh train**
   
-### Test and Evaluation
+### 6. Test and Evaluation
   **sh run.sh test***
   **python evaluation output.py**
