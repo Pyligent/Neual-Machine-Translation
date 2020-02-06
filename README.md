@@ -36,3 +36,16 @@ BLEU (bilingual evaluation understudy) is an algorithm for evaluating the qualit
 Scores are calculated for individual translated segments—generally sentences—by comparing them with a set of good quality reference translations. Those scores are then averaged over the whole corpus to reach an estimate of the translation's overall quality. Intelligibility or grammatical correctness are not taken into account.
 
 ![img8](./images/BLEU.png)
+
+### Model Training
+
+- Local Training   
+  **sh run.sh train_local**
+
+- GPU Training
+  **pip install -r gpu_requirements.txt**
+  **sh run.sh train**
+  
+### Test and Evaluation
+  **sh run.sh test***
+  **python evaluation output.py**
