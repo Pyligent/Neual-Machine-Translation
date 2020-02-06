@@ -42,10 +42,10 @@ Scores are calculated for individual translated segmentsâ€”generally sentencesâ€
 - Local Training   
   **sh run.sh train_local**
 
-- GPU Training
-  **pip install -r gpu_requirements.txt**
+- GPU Training   
+  **pip install -r gpu_requirements.txt**   
   **sh run.sh train**
   
-### 6. Test and Evaluation
-  **sh run.sh test***
+### 6. Test and Evaluation   
+  **sh run.sh test**
   **python evaluation output.py**
