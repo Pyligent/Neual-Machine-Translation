@@ -47,5 +47,5 @@ Scores are calculated for individual translated segmentsâ€”generally sentencesâ€
   **sh run.sh train**
   
 ### 6. Test and Evaluation   
-  **sh run.sh test**
+  **sh run.sh test**   
   **python evaluation output.py**
